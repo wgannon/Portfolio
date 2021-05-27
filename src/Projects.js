@@ -1,32 +1,44 @@
 import React from 'react';
-import Thumbnail from './Thumbnail.js'; 
+import {Link} from 'react-router-dom';
 import './App.css';
+import CommuteThumbnail from './Thumbnails/CommuteForecast.GIF'
+import DentalThumbnail from './Thumbnails/DentalDeserts.gif'
+import NHLThumbnail from './Thumbnails/NHLAttendance.GIF'
 
 class Projects extends React.Component {
   render(){
   return (
     
     <div className="Projects">
-        <Thumbnail
-        link="./CommuteForecast"
-        image= './CommuteForecast.GIF'
-        title="Commute Forecast"
-        category="Web App"
-        />
- 
-        <Thumbnail
-        link="/DentalDeserts"
-        image="./DentalDeserts.gif"
-        title="Dental Deserts in US"
-        category="Web App"
-        />
- 
-        <Thumbnail
-        link="/NHLAttendance"
-        image="./NHLAttendance.gif"
-        title="NHL Season Attendance"s
-        category="Web App"
-        />
+        <div className="project">
+          <Link to="./CommuteForecast"> 
+          <div className="project-image">
+            <img src={CommuteThumbnail} className= "TImage" alt="Project"/>
+          </div>
+          <div className="project-title">CommuteForecast</div>
+          <div className="project-category">Web App</div>
+          </Link>
+        </div>
+
+        <div className="project">
+          <Link to="./DentalDeserts"> 
+          <div className="project-image">
+            <img src={DentalThumbnail} className= "TImage" alt="Project"/>
+          </div>
+          <div className="project-title">Dental Desert</div>
+          <div className="project-category">Web App</div>
+          </Link>
+        </div>
+         
+        <div className="project">
+          <Link to="./NHLAttendance"> 
+          <div className="project-image">
+            <img src={NHLThumbnail} className= "TImage" alt="Project"/>
+          </div>
+          <div className="project-title">NHL Season Attendance</div>
+          <div className="project-category">Web App</div>
+          </Link>
+        </div> 
     </div>
   )
 }

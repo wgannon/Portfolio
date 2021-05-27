@@ -4,6 +4,7 @@ import './App.css';
  
 function Thumbnail(props) {
   return (
+    console.log(props),
     <div className="project">
       <Link to={props.link}>
         <div className="project-image">
