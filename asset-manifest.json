@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Projects/static/css/main.52b4f8f0.chunk.css",
-    "main.js": "/Projects/static/js/main.2d9eba11.chunk.js",
-    "main.js.map": "/Projects/static/js/main.2d9eba11.chunk.js.map",
-    "runtime-main.js": "/Projects/static/js/runtime-main.ee553763.js",
-    "runtime-main.js.map": "/Projects/static/js/runtime-main.ee553763.js.map",
-    "static/js/2.caed2458.chunk.js": "/Projects/static/js/2.caed2458.chunk.js",
-    "static/js/2.caed2458.chunk.js.map": "/Projects/static/js/2.caed2458.chunk.js.map",
-    "static/js/3.3b40ab6b.chunk.js": "/Projects/static/js/3.3b40ab6b.chunk.js",
-    "static/js/3.3b40ab6b.chunk.js.map": "/Projects/static/js/3.3b40ab6b.chunk.js.map",
-    "index.html": "/Projects/index.html",
-    "static/css/main.52b4f8f0.chunk.css.map": "/Projects/static/css/main.52b4f8f0.chunk.css.map",
-    "static/js/2.caed2458.chunk.js.LICENSE.txt": "/Projects/static/js/2.caed2458.chunk.js.LICENSE.txt",
-    "static/media/CommuteForecastVid.19955137.gif": "/Projects/static/media/CommuteForecastVid.19955137.gif",
-    "static/media/DentalDeserts.beb4c771.gif": "/Projects/static/media/DentalDeserts.beb4c771.gif",
-    "static/media/NHLAttendance.8aae3bf7.GIF": "/Projects/static/media/NHLAttendance.8aae3bf7.GIF",
-    "static/media/App.css": "/Projects/static/media/compass1.edb6b41b.svg"
+    "main.css": "/static/css/main.7e37560f.chunk.css",
+    "main.js": "/static/js/main.dd9df829.chunk.js",
+    "main.js.map": "/static/js/main.dd9df829.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ad7444c7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ad7444c7.js.map",
+    "static/js/2.39708267.chunk.js": "/static/js/2.39708267.chunk.js",
+    "static/js/2.39708267.chunk.js.map": "/static/js/2.39708267.chunk.js.map",
+    "static/js/3.3b40ab6b.chunk.js": "/static/js/3.3b40ab6b.chunk.js",
+    "static/js/3.3b40ab6b.chunk.js.map": "/static/js/3.3b40ab6b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7e37560f.chunk.css.map": "/static/css/main.7e37560f.chunk.css.map",
+    "static/js/2.39708267.chunk.js.LICENSE.txt": "/static/js/2.39708267.chunk.js.LICENSE.txt",
+    "static/media/CommuteForecast.bf0ef312.GIF": "/static/media/CommuteForecast.bf0ef312.GIF",
+    "static/media/CommuteForecastVid.19955137.gif": "/static/media/CommuteForecastVid.19955137.gif",
+    "static/media/DentalDeserts.beb4c771.gif": "/static/media/DentalDeserts.beb4c771.gif",
+    "static/media/NHLAttendance.8aae3bf7.GIF": "/static/media/NHLAttendance.8aae3bf7.GIF",
+    "static/media/App.css": "/static/media/compass1.edb6b41b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee553763.js",
-    "static/js/2.caed2458.chunk.js",
-    "static/css/main.52b4f8f0.chunk.css",
-    "static/js/main.2d9eba11.chunk.js"
+    "static/js/runtime-main.ad7444c7.js",
+    "static/js/2.39708267.chunk.js",
+    "static/css/main.7e37560f.chunk.css",
+    "static/js/main.dd9df829.chunk.js"
   ]
 }
