@@ -12,9 +12,9 @@ class Navbar extends React.Component {
                 {/* Set up the Links*/}
                 <div className="compass"></div>
                 <div className="btn-group">
-                        <Link to="/Projects" className="item"><button class="button">Home</button></Link>
-                        <Link to="/resume" className="item"><button class="button">Resume</button></Link>
-                        <Link to="/about" className="item"><button class="button">About</button></Link>
+                        <Link to="/Portfolio/Projects" className="item"><button class="button">Home</button></Link>
+                        <Link to="/Portfolio/resume" className="item"><button class="button">Resume</button></Link>
+                        <Link to="/Portfolio/about" className="item"><button class="button">About</button></Link>
                 </div>
                 <div className="NavRight">
                         <IconContext.Provider value={{ className: 'react-icons' }}>

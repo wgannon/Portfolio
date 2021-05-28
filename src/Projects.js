@@ -11,7 +11,7 @@ class Projects extends React.Component {
     
     <div className="Projects">
         <div className="project">
-          <Link to="./CommuteForecast"> 
+          <Link to="./Portfolio/CommuteForecast"> 
           <div className="project-image">
             <img src={CommuteThumbnail} className= "TImage" alt="Project"/>
           </div>
@@ -21,7 +21,7 @@ class Projects extends React.Component {
         </div>
 
         <div className="project">
-          <Link to="./DentalDeserts"> 
+          <Link to="./Portfolio/DentalDeserts"> 
           <div className="project-image">
             <img src={DentalThumbnail} className= "TImage" alt="Project"/>
           </div>
@@ -31,7 +31,7 @@ class Projects extends React.Component {
         </div>
          
         <div className="project">
-          <Link to="./NHLAttendance"> 
+          <Link to="./Portfolio/NHLAttendance"> 
           <div className="project-image">
             <img src={NHLThumbnail} className= "TImage" alt="Project"/>
           </div>

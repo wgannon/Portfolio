@@ -20,13 +20,13 @@ class App extends React.Component {
             <div className="app-content"> 
               {/*Set up the router*/}
               <Switch>
-              <Route exact path="/"> <Redirect to="/Projects" component={Projects}/> </Route>
-              <Route path="/CommuteForecast" component={CommuteForecast} />
-              <Route path="/DentalDeserts" component={DentalDeserts} />
+              <Route exact path="/Portfolio"> <Redirect to="/Projects" component={Projects}/> </Route>
+              <Route path="/Portfolio/CommuteForecast" component={CommuteForecast} />
+              <Route path="/Portfolio/DentalDeserts" component={DentalDeserts} />
               <Route path="/NHLAttendance" component={NHLAttendance} />
-              <Route path="/resume" component={Resume} />
-              <Route path="/about" component={About} />
-              <Route path="/Projects" component={Projects} />
+              <Route path="/Portfolio/resume" component={Resume} />
+              <Route path="/Portfolio/about" component={About} />
+              <Route path="/Portfolio/Projects" component={Projects} />
               </Switch>
               
             </div>
