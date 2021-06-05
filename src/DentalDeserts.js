@@ -1,6 +1,8 @@
 import React from 'react';
 import DentalImage from './DentalDeserts/DentalDeserts.gif';
 import './App.css';
+
+
 class DentalDeserts extends React.Component {
   render(){
     return(
