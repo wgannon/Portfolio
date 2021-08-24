@@ -16,17 +16,17 @@ class CommuteForecast extends React.Component {
             <img src={CommuteImage} className="CommuteImageProject" alt="CommuteImageProject" />
           </div>
           <p>
-          <strong>Link: </strong> <a href="https://gerirosenberg.github.io/careless-decay/">www.careless-decay.com</a> <br /><br />
+          <strong>Link: </strong> <a href="https://www.commuteforecast.com/">https://www.commuteforecast.com/</a> <br /><br />
           <strong>Created:</strong> 2019<br /><br />
-          <strong>About:</strong> This was the final group project for Course GEOG575 Interactive Cartography & Geo-visualization. 
-                My group consisted of myself, Geri Rosenberg, and Matt Rodenberger and it won the NACIS Student Dynamic Mapping Competition in 2019. 
-                The application is meant to act as an informational tool to raise awareness of where and why some areas have what are known as Dental Deserts. 
-                These Deserts signify a lack in ability to get enough or adequate dental care.<br /><br />
-          <strong>Technicals:</strong> It is a Javascript web application using Leaflet to process GeoJSON’s showing the data over a Mapbox base map. The information's 
-                  colors are assigned from the GeoJSON attributes via a JavaScript function. The primary interaction was a scroll monitor which would zoom to 
-                  the place that was being discussed in the information panel. Some other functions used to improve User Experience is the ability to zoom and 
-                  pan around the map with buttons. Tool-tips were also used so that the user can see more information of each county.<br /> <br />
-          <strong>Data: </strong>Data taken from the Health Resource & Services Admin and US Census Bureau was processed in PostgreSQL to create a shortage score on a county level.
+          <strong>About:</strong>Commute Forecast is a commute assistance application where the user can enter in information to have the cost of a commute
+                                 broken down in a few ways. The cost of gas, tolls, maintenance, time, miles, and Estimated CO2. The user can also choose 
+                                 if they want to view it in 4 different temporal options of day, week, month, and year. The fastest route is then decided
+                                 and shown on the map in the window.
+                                  <br /><br />
+          <strong>Technicals:</strong> This application is built with JavaScript & CSS using Google Maps API. The API call built from the user given information
+                                        then is retrieved, presented on the map and calculated for each of the categories.
+            <br /> <br />
+          <strong>Data: </strong>The Data is taken from the User which is then built into an API call to retrieve information that can be used to calculate all options.
       
           </p>
         </div>
